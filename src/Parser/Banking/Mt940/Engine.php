@@ -105,7 +105,7 @@ abstract class Engine
             }
         }
 
-        trigger_error('Unknown mt940 parser loaded, thus reverted to default');
+        // trigger_error('Unknown mt940 parser loaded, thus reverted to default');
 
         return new Engine\Unknown();
     }
